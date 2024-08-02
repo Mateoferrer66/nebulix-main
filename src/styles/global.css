@@ -2,15 +2,15 @@
 
 @layer base {
   :root {
-    --color-primary: 75 38 143; /* 135 94 212 */
-    --color-secondary: 107 154 199;
-    --color-accent: 119 112 150;
-    --color-warning: 202 121 45;
-    --color-danger: 180 25 14;
-    --color-success: 77 137 101;
-    --color-dark: 25 28 38;
-    --color-light: 243 241 239;
-    --color-info: 25 28 38;
+    --color-primary: 42 174 196; /* #2AAEC4 */
+    --color-secondary: 211 237 251; /* #D3EDFB */
+    --color-accent: 42 174 196; /* #2AAEC4 */
+    --color-warning: 188 54 90; /* #BC365A */
+    --color-danger: 188 54 90; /* #BC365A */
+    --color-success: 211 237 251; /* #D3EDFB */
+    --color-dark: 35 36 51; /* #232433 */
+    --color-light: 211 237 251; /* #D3EDFB */
+    --color-info: 35 36 51; /* #232433 */
 
     --spacing: 1rem;
     --w-xl: 75rem;
@@ -31,15 +31,15 @@
 
   [data-theme="dark"] {
     body {
-      --color-primary: 42 174 196; /* color de los botones y servicios azul claro #2AAEC4*/ 
-      --color-secondary: 211 237 251;
-      --color-accent: 211 237 251 ;
-      --color-warning: 188 54 90;
-      --color-danger: 188 54 90;
-      --color-success: 211 237 251;
-      --color-dark: 35 36 51; /* header y demas colores principales azul oscuro #232433 */
-      --color-light: 211 237 251; /* color de las fuentes del home  */ 
-      --color-info: 35 36 51;
+      --color-primary: 42 174 196; /* #2AAEC4 */ 
+      --color-secondary: 211 237 251; /* #D3EDFB */
+      --color-accent: 211 237 251; /* #D3EDFB */
+      --color-warning: 188 54 90; /* #BC365A */
+      --color-danger: 188 54 90; /* #BC365A */
+      --color-success: 211 237 251; /* #D3EDFB */
+      --color-dark: 35 36 51; /* #232433 */
+      --color-light: 211 237 251; /* #D3EDFB */ 
+      --color-info: 35 36 51; /* #232433 */
     }
   }
 }
