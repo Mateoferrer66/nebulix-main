@@ -1,10 +1,10 @@
 ---
-title: Interstellar Webshop
+title: Servicios
 description: Our online store is out of this world
-intro: Sell your goods in style
+intro: Descubre todo lo que tenemos para ofrecer
 hero_buttons:
   - icon_only: false
-    label: Shop Now
+    label: Comprar Ahora
     href: "#more"
     icon: /src/icons/down-line.svg
 blocks:
@@ -12,7 +12,7 @@ blocks:
     component: ShopCategories
     container: md
     template: grid
-    title: Categories
+    title: Categorias
     animate: false
     categories:
       - "Merch"
@@ -20,63 +20,63 @@ blocks:
       - Licenses
   - type: shop_products
     component: ShopProducts
-    count: 4
-    container: md
-    template: list
-    title: Fresh Products
-    animate: false
+    // count: 4  Pequeños 4 items
+    // container: md
+    // template: list
+    // title: Fresh Products
+    // animate: false
     categories:
       - "Merch"
     content: >
-      Our define collection of fictional merch from the Draco Void Convergence,
-      shipping time under 200 lightyears. check out our amazing collection.
+      // Our define collection of fictional merch from the Draco Void Convergence,
+      // shipping time under 200 lightyears. check out our amazing collection.
   - type: text_image
     component: TextImage
-    container: none
+    // container: none
     template: banner
     title: My Image
     image_size: "50"
-    reverse: false
-    animate: false
+    // reverse: false
+    // animate: false
     thumbnail: /src/assets/cosmic_coffee_2.jpeg
     content: >
-      ## **Caffeinate a developer** Brewing Inspiration, One Cup at a Time.
+      ## **Verskod 2024** Creando inspiración un proyecto a la vez.
 
 
-      Sip on the satisfaction of knowing that your donation is a key ingredient in fueling creativity. Your support empowers artists, writers, musicians, and content creators to keep innovating, producing, and delighting the world with their work. With each cup of virtual coffee, you’re helping transform visions into reality.
+      Transformamos ideas en realidad con código versátil y tecnologías de vanguardia, creando el futuro digital que imaginas.
     buttons:
       - icon_only: false
-        label: Buy me a coffee
+        label: Compra un servicio
         href: "#"
-        color: surface-success
+        color: bg-[#fc0] text-black //surface-success Original color of button
     block_class: my-0
   - type: shop_products
     component: ShopProducts
-    count: 10
-    container: md
-    template: flex
-    title: ""
-    animate: false
+    // count: 10
+    // container: md
+    // template: flex This section depends on this line
+    // title: ""
+    // animate: false
     categories:
       - Donations
     block_class: mb-8
   - type: text_image
     component: TextImage
-    container: md
-    template: column
+    container: md Stablishes a size for the picture
+    template: column Stablishes a size for the picture
     title: Magic bean bag
     image_size: "66"
     reverse: true
     animate: false
     content: >
-      ## Merch Store
+      ## Equipo Verskod
 
 
-      Explore our Interstellar Webshop featuring products that are truly out of this world. Dive into a cosmic collection as vast as the universe itself.
+      Explora todas las oportunidades de crecimiento para te empresa que se te presentan al trabajar con un equipo como el nuestro
     thumbnail: /src/assets/nebulix-ben-bag.png
     buttons:
       - icon_only: false
-        label: Shop App productrs
+        label: Comprar productos Verskod
         href: "#"
         color: bg-[#fc0] text-black
         icon: /src/icons/shopping-cart.svg
@@ -84,10 +84,10 @@ blocks:
     block_class: ""
   - type: shop_products
     component: ShopProducts
-    count: 9
-    container: md
-    template: flex
-    animate: false
+    // count: 9 amount of items in the shop
+    // container: md
+    // template: flex This section depends on this line
+    // animate: false
     categories:
       - "Merch"
 style:
