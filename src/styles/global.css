@@ -1,5 +1,5 @@
 @tailwind base;
-
+ 
 @layer base {
   :root {
     --color-primary: 42 174 196; /* #2AAEC4 */
